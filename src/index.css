@@ -1,0 +1,75 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+
+#usrBox {
+    position: fixed;
+    width: 9.5%;
+    bottom: 2%;
+    left: 1%;
+    z-index: 1;
+}
+
+#chatBox {
+    position: fixed;
+    width: 82.5%;
+    bottom: 2%;
+    left: 11%;
+    z-index: 1;
+}
+
+#chatSend {
+    position: fixed;
+    width: 5%;
+    bottom: 2%;
+    right: 1%;
+    z-index: 1;
+}
+
+.msgs {
+    padding-bottom: 4%;
+    z-index: -1;
+}
+
+.ChatMsg {
+    word-wrap: break-word;
+}
+
+.box {
+    bottom: -2%;
+    background-color: white;
+    width: 104%;
+    right: -2%;
+    position: fixed;
+    height: 8%;
+    z-index: 0;
+}
+
+.msg {
+    font-size: 15px;
+}
+
+.usr {
+    font-size: 20px;
+    left: 2%;
+}
+
+.date {
+    font-size: 13px;
+    color: gray;
+    font-style: italic;
+    right: 2%;
+    position: absolute;
+}
+
+.div {
+    width: 90%;
+    left: 5%;
+    height: 1px;
+    border: none;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+}
